@@ -9,21 +9,50 @@
 /* Begin PBXBuildFile section */
 		C3A37EC828B904810094AEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A37EC728B904810094AEFF /* AppDelegate.swift */; };
 		C3A37ECA28B904810094AEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A37EC928B904810094AEFF /* SceneDelegate.swift */; };
-		C3A37ECC28B904810094AEFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A37ECB28B904810094AEFF /* ViewController.swift */; };
-		C3A37ECF28B904810094AEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A37ECD28B904810094AEFF /* Main.storyboard */; };
 		C3A37ED128B904870094AEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A37ED028B904870094AEFF /* Assets.xcassets */; };
 		C3A37ED428B904870094AEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A37ED228B904870094AEFF /* LaunchScreen.storyboard */; };
+		C3A37EDE28B906CA0094AEFF /* FWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A37EDD28B906CA0094AEFF /* FWTabBarController.swift */; };
+		C3A37EE028B907940094AEFF /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A37EDF28B907940094AEFF /* SearchVC.swift */; };
+		C3A37EE228B908D60094AEFF /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A37EE128B908D60094AEFF /* FavoritesListVC.swift */; };
+		C3A37EE528B914000094AEFF /* FWTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A37EE428B914000094AEFF /* FWTextField.swift */; };
+		C3B815B828D06C96002655DC /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B815B728D06C96002655DC /* PersistenceManager.swift */; };
+		C3B815BA28D09714002655DC /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B815B928D09714002655DC /* FavoriteCell.swift */; };
+		C3BD709628BCD9E800CBB255 /* FWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD709528BCD9E800CBB255 /* FWButton.swift */; };
+		C3BD709828BE397A00CBB255 /* WineDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD709728BE397A00CBB255 /* WineDescriptionVC.swift */; };
+		C3BD709A28BE463000CBB255 /* WineListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD709928BE463000CBB255 /* WineListVC.swift */; };
+		C3BD709C28BE481200CBB255 /* WineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD709B28BE481200CBB255 /* WineCell.swift */; };
+		C3BD70A128BE49D500CBB255 /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD70A028BE49D500CBB255 /* Wine.swift */; };
+		C3BD70A328BE515100CBB255 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD70A228BE515100CBB255 /* NetworkManager.swift */; };
+		C3BD70A528BE53F200CBB255 /* FWError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD70A428BE53F200CBB255 /* FWError.swift */; };
+		C3BD70A728C1E7AF00CBB255 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD70A628C1E7AF00CBB255 /* Constants.swift */; };
+		C3BD70AA28C1FB4900CBB255 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C3BD70A928C1FB4900CBB255 /* Kingfisher */; };
+		C3BD70AC28C2008700CBB255 /* WineImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD70AB28C2008700CBB255 /* WineImageView.swift */; };
+		C3BD70AE28C2348600CBB255 /* FWEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD70AD28C2348600CBB255 /* FWEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3A37EC428B904810094AEFF /* FindWine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindWine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A37EC728B904810094AEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3A37EC928B904810094AEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3A37ECB28B904810094AEFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C3A37ECE28B904810094AEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3A37ED028B904870094AEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3A37ED328B904870094AEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3A37ED528B904870094AEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A37EDD28B906CA0094AEFF /* FWTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWTabBarController.swift; sourceTree = "<group>"; };
+		C3A37EDF28B907940094AEFF /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		C3A37EE128B908D60094AEFF /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		C3A37EE428B914000094AEFF /* FWTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWTextField.swift; sourceTree = "<group>"; };
+		C3B815B728D06C96002655DC /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		C3B815B928D09714002655DC /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		C3BD709528BCD9E800CBB255 /* FWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWButton.swift; sourceTree = "<group>"; };
+		C3BD709728BE397A00CBB255 /* WineDescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineDescriptionVC.swift; sourceTree = "<group>"; };
+		C3BD709928BE463000CBB255 /* WineListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineListVC.swift; sourceTree = "<group>"; };
+		C3BD709B28BE481200CBB255 /* WineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineCell.swift; sourceTree = "<group>"; };
+		C3BD70A028BE49D500CBB255 /* Wine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		C3BD70A228BE515100CBB255 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C3BD70A428BE53F200CBB255 /* FWError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWError.swift; sourceTree = "<group>"; };
+		C3BD70A628C1E7AF00CBB255 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C3BD70AB28C2008700CBB255 /* WineImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineImageView.swift; sourceTree = "<group>"; };
+		C3BD70AD28C2348600CBB255 /* FWEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BD70AA28C1FB4900CBB255 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +86,69 @@
 		C3A37EC628B904810094AEFF /* FindWine */ = {
 			isa = PBXGroup;
 			children = (
+				C3B815B628D06C41002655DC /* Managers */,
+				C3BD709F28BE49B800CBB255 /* Models */,
+				C3A37EE328B90BA40094AEFF /* ViewControllers */,
+				C3BD709E28BE49A400CBB255 /* Buttons */,
+				C3BD709D28BE498300CBB255 /* Cells */,
 				C3A37EC728B904810094AEFF /* AppDelegate.swift */,
 				C3A37EC928B904810094AEFF /* SceneDelegate.swift */,
-				C3A37ECB28B904810094AEFF /* ViewController.swift */,
-				C3A37ECD28B904810094AEFF /* Main.storyboard */,
 				C3A37ED028B904870094AEFF /* Assets.xcassets */,
 				C3A37ED228B904870094AEFF /* LaunchScreen.storyboard */,
 				C3A37ED528B904870094AEFF /* Info.plist */,
+				C3A37EDD28B906CA0094AEFF /* FWTabBarController.swift */,
+				C3A37EE428B914000094AEFF /* FWTextField.swift */,
+				C3BD70A428BE53F200CBB255 /* FWError.swift */,
+				C3BD70A628C1E7AF00CBB255 /* Constants.swift */,
+				C3BD70AB28C2008700CBB255 /* WineImageView.swift */,
+				C3BD70AD28C2348600CBB255 /* FWEmptyStateView.swift */,
 			);
 			path = FindWine;
+			sourceTree = "<group>";
+		};
+		C3A37EE328B90BA40094AEFF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3A37EDF28B907940094AEFF /* SearchVC.swift */,
+				C3BD709928BE463000CBB255 /* WineListVC.swift */,
+				C3A37EE128B908D60094AEFF /* FavoritesListVC.swift */,
+				C3BD709728BE397A00CBB255 /* WineDescriptionVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C3B815B628D06C41002655DC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C3BD70A228BE515100CBB255 /* NetworkManager.swift */,
+				C3B815B728D06C96002655DC /* PersistenceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C3BD709D28BE498300CBB255 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C3BD709B28BE481200CBB255 /* WineCell.swift */,
+				C3B815B928D09714002655DC /* FavoriteCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C3BD709E28BE49A400CBB255 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C3BD709528BCD9E800CBB255 /* FWButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		C3BD709F28BE49B800CBB255 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3BD70A028BE49D500CBB255 /* Wine.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +167,9 @@
 			dependencies = (
 			);
 			name = FindWine;
+			packageProductDependencies = (
+				C3BD70A928C1FB4900CBB255 /* Kingfisher */,
+			);
 			productName = FindWine;
 			productReference = C3A37EC428B904810094AEFF /* FindWine.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +198,9 @@
 				Base,
 			);
 			mainGroup = C3A37EBB28B904800094AEFF;
+			packageReferences = (
+				C3BD70A828C1FB4900CBB255 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = C3A37EC528B904810094AEFF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +217,6 @@
 			files = (
 				C3A37ED428B904870094AEFF /* LaunchScreen.storyboard in Resources */,
 				C3A37ED128B904870094AEFF /* Assets.xcassets in Resources */,
-				C3A37ECF28B904810094AEFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +227,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A37ECC28B904810094AEFF /* ViewController.swift in Sources */,
+				C3BD70A328BE515100CBB255 /* NetworkManager.swift in Sources */,
+				C3BD709C28BE481200CBB255 /* WineCell.swift in Sources */,
+				C3A37EE528B914000094AEFF /* FWTextField.swift in Sources */,
+				C3A37EE028B907940094AEFF /* SearchVC.swift in Sources */,
+				C3BD709828BE397A00CBB255 /* WineDescriptionVC.swift in Sources */,
+				C3BD709628BCD9E800CBB255 /* FWButton.swift in Sources */,
+				C3BD70A528BE53F200CBB255 /* FWError.swift in Sources */,
+				C3BD70A128BE49D500CBB255 /* Wine.swift in Sources */,
+				C3A37EDE28B906CA0094AEFF /* FWTabBarController.swift in Sources */,
+				C3BD70AE28C2348600CBB255 /* FWEmptyStateView.swift in Sources */,
+				C3A37EE228B908D60094AEFF /* FavoritesListVC.swift in Sources */,
+				C3B815B828D06C96002655DC /* PersistenceManager.swift in Sources */,
+				C3BD709A28BE463000CBB255 /* WineListVC.swift in Sources */,
+				C3BD70A728C1E7AF00CBB255 /* Constants.swift in Sources */,
+				C3BD70AC28C2008700CBB255 /* WineImageView.swift in Sources */,
+				C3B815BA28D09714002655DC /* FavoriteCell.swift in Sources */,
 				C3A37EC828B904810094AEFF /* AppDelegate.swift in Sources */,
 				C3A37ECA28B904810094AEFF /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +251,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C3A37ECD28B904810094AEFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3A37ECE28B904810094AEFF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C3A37ED228B904870094AEFF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +388,6 @@
 				INFOPLIST_FILE = FindWine/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +415,6 @@
 				INFOPLIST_FILE = FindWine/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +452,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3BD70A828C1FB4900CBB255 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3BD70A928C1FB4900CBB255 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3BD70A828C1FB4900CBB255 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3A37EBC28B904800094AEFF /* Project object */;
 }
